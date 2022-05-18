@@ -1,0 +1,43 @@
+.gasnoble{background-color:#9C55E7;}
+.halogenos{background-color:#00FF00;}
+.nometales{background-color:#1BB819;}
+.semimetales{background-color:#33FFB8;}
+.metales{background-color:#FFA07A;}
+.precisos{background-color:#FFC300;}
+.platinoides{background-color:#FF5533;}
+.artificiales{background-color:#33FFF3;}
+.alcalinoterreos{background-color:#FFF633;}
+.alcalinos{background-color:#F0F38F;}
+.tierrasligeras{background-color:#FF0000;}
+.tierraspesadas{background-color:#E6A9D3;}
+
+td:hover{opacity:7;transition:all;visibility:visible;backgtround:red;
+transform:scale(1.5);}
+
+.modal-contenido{
+  background-color:rgba(40,114,51,0.5);
+color:#ffffff;
+width:300px;
+padding:10px 20px
+box-shadow:5px 5px 5px rgba (12,12,12,0.527);
+margin:2rem auto;
+position:relative;
+border-style:outset;
+border-radios:6px;
+overflow:hidden;
+z-index:1;
+backdrop-filter:saturate(180%) blur(20px);
+}
+.modal{
+  background-color:rgba(0,0,0,.6);
+position:fixed;
+top:0;
+right:0;
+bottom:0;
+left:0;
+opacity:0;
+pointer-events:none;
+transition:all 1s;}
+:target{ opacity:1;
+pointer-events:auto;
+  border-radius:8px;}
